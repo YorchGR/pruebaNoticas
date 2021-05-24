@@ -1,0 +1,4 @@
+Bundle-Name: apiPrueba
+Bundle-SymbolicName: apiPrueba
+Bundle-Version: 1.0.0
+Export-Package: apiPrueba.constants

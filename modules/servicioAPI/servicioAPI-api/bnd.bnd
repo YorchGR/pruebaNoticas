@@ -1,0 +1,10 @@
+Bundle-Name: servicioAPI-api
+Bundle-SymbolicName: servicioAPI.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	servicioAPI.exception,\
+	servicioAPI.model,\
+	servicioAPI.service,\
+	servicioAPI.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../servicioAPI-service/service.xml

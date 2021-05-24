@@ -1,0 +1,10 @@
+Bundle-Name: prueba-service-api
+Bundle-SymbolicName: prueba.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	prueba.service.exception,\
+	prueba.service.model,\
+	prueba.service.service,\
+	prueba.service.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../prueba-service-service/service.xml
